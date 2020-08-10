@@ -139,7 +139,7 @@ class RestClient(object):
             uri_path: string URI path for query
             kwargs:
                 params: additional dictionary of parameters for PATCH
-                json_body: string JSON body
+                json_body: string JSON body within a array. 
 
         Returns:
             requests.Response object for the request
@@ -155,7 +155,7 @@ class RestClient(object):
             uri_path: string URI path for query
             kwargs:
                 params: additional dictionary of parameters for DELETE
-                json_body: string JSON body
+                json_body: string JSON body within a array
 
         Returns:
             requests.Response object for the request
@@ -171,7 +171,7 @@ class RestClient(object):
             uri_path: string URI path for query
             kwargs:
                 params: additional dictionary of parameters for POST
-                json_body: string JSON body
+                json_body: string JSON body within a array
 
         Returns:
             requests.Response object for the request
